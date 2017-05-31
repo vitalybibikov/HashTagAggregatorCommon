@@ -10,6 +10,15 @@
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/EvilAvenger/HashTagAggregatorCommon</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageProjectUrl>https://github.com/EvilAvenger/HashTagAggregatorCommon</PackageProjectUrl>
+    <Copyright>Vitali Bibikov</Copyright>
+    <Description>HashtagAggregator.Shared.Common for HashtagAggregator</Description>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <FileVersion>1.0.0.1</FileVersion>
+    <Version>1.0.1</Version>
+    <Authors>Vitali Bibikov</Authors>
   </PropertyGroup>
 
   <ItemGroup>

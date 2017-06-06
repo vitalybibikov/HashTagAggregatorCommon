@@ -2,28 +2,28 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp1.1</TargetFramework>
-    <AssemblyName>HashtagAggregator.Shared.Common</AssemblyName>
-    <PackageId>HashtagAggregator.Shared.Common</PackageId>
+    <AssemblyName>HashtagAggregator.Core.Contracts</AssemblyName>
+    <PackageId>HashtagAggregator.Core.Contracts</PackageId>
     <PackageTargetFallback>$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
     <RuntimeFrameworkVersion>1.1.1</RuntimeFrameworkVersion>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <RepositoryUrl>https://github.com/EvilAvenger/HashTagAggregatorCommon</RepositoryUrl>
-    <RepositoryType>GIT</RepositoryType>
-    <PackageProjectUrl>https://github.com/EvilAvenger/HashTagAggregatorCommon</PackageProjectUrl>
+    <Authors>Vitaly Bibikov</Authors>
     <Copyright>Vitaly Bibikov</Copyright>
-    <Description>HashtagAggregator.Shared.Common for HashtagAggregator</Description>
+    <Description>HashtagAggregator.Core.Contracts for HashtagAggregator</Description>
+    <RepositoryUrl>https://github.com/EvilAvenger/HashTagAggregator</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageProjectUrl>https://github.com/EvilAvenger/HashTagAggregator</PackageProjectUrl>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>1.0.2</Version>
     <AssemblyVersion>1.0.0.2</AssemblyVersion>
     <FileVersion>1.0.0.2</FileVersion>
-    <Version>1.0.2</Version>
-    <Authors>Vitaly Bibikov</Authors>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="HashtagAggregator.Shared.Common" Version="1.0.2" />
     <PackageReference Include="HashtagAggregator.Shared.Contracts" Version="1.0.2" />
-    <PackageReference Include="Microsoft.Extensions.Options" Version="1.1.2" />
   </ItemGroup>
 
 </Project>

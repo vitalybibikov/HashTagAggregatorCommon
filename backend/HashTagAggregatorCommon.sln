@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashtagAggregator.Shared.Co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashtagAggregator.Shared.Logging", "HashtagAggregator.Shared.Logging\HashtagAggregator.Shared.Logging.csproj", "{8CDDB40D-3747-4742-8F64-DCA05356F65A}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashtagAggregator.Core.Contracts", "HashtagAggregator.Core.Contracts\HashtagAggregator.Core.Contracts.csproj", "{787C1046-7142-4204-83E3-AF0ADC53D387}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{8CDDB40D-3747-4742-8F64-DCA05356F65A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CDDB40D-3747-4742-8F64-DCA05356F65A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CDDB40D-3747-4742-8F64-DCA05356F65A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{787C1046-7142-4204-83E3-AF0ADC53D387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{787C1046-7142-4204-83E3-AF0ADC53D387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{787C1046-7142-4204-83E3-AF0ADC53D387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{787C1046-7142-4204-83E3-AF0ADC53D387}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

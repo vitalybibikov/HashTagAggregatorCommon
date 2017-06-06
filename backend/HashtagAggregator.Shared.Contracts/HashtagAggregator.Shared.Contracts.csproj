@@ -9,14 +9,14 @@
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
-    <Version>1.0.1</Version>
-    <Authors>Vitali Bibikov</Authors>
-    <Copyright>Vitali Bibikov</Copyright>
+    <Version>1.0.2</Version>
+    <Authors>Vitaly Bibikov</Authors>
+    <Copyright>Vitaly Bibikov</Copyright>
     <PackageProjectUrl>https://github.com/EvilAvenger/HashTagAggregatorCommon</PackageProjectUrl>
     <RepositoryUrl>https://github.com/EvilAvenger/HashTagAggregatorCommon</RepositoryUrl>
     <RepositoryType>GIT</RepositoryType>
-    <AssemblyVersion>1.0.0.1</AssemblyVersion>
-    <FileVersion>1.0.0.1</FileVersion>
+    <AssemblyVersion>1.0.0.2</AssemblyVersion>
+    <FileVersion>1.0.0.2</FileVersion>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Description>HashtagAggregator.Shared.Contracts for HashtagAggregator</Description>
   </PropertyGroup>

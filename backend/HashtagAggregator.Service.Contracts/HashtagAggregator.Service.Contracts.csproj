@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <Authors>Vitaly Bibikov</Authors>
+    <Company>Vitaly Bibikov</Company>
+    <Product>HashtagAggregator</Product>
+    <Description>HashtagAggregator.Service.Contracts for HashtagAggregator</Description>
+    <Copyright>Vitaly Bibikov</Copyright>
+    <PackageLicenseUrl>https://github.com/EvilAvenger/HashTagAggregator</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/EvilAvenger/HashTagAggregator</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/EvilAvenger/HashTagAggregator</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hangfire" Version="1.6.13" />
+    <PackageReference Include="HashtagAggregator.Core.Contracts" Version="1.0.2" />
+    <PackageReference Include="HashtagAggregator.Shared.Common" Version="1.0.2" />
+    <PackageReference Include="WindowsAzure.Storage" Version="8.1.4" />
+  </ItemGroup>
+
+</Project>

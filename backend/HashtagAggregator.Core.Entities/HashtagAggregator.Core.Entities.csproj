@@ -2,28 +2,27 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp1.1</TargetFramework>
-    <AssemblyName>HashtagAggregator.Core.Contracts</AssemblyName>
-    <PackageId>HashtagAggregator.Core.Contracts</PackageId>
+    <AssemblyName>HashtagAggregator.Core.Entities</AssemblyName>
+    <PackageId>HashtagAggregator.Core.Entities</PackageId>
     <PackageTargetFallback>$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
     <RuntimeFrameworkVersion>1.1.1</RuntimeFrameworkVersion>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
     <Authors>Vitaly Bibikov</Authors>
+    <Description>HashtagAggregator.Core.Entities for HashtagAggregator</Description>
     <Copyright>Vitaly Bibikov</Copyright>
-    <Description>HashtagAggregator.Core.Contracts for HashtagAggregator</Description>
+    <PackageProjectUrl>https://github.com/EvilAvenger/HashTagAggregator</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/EvilAvenger/HashTagAggregator</PackageLicenseUrl>
     <RepositoryUrl>https://github.com/EvilAvenger/HashTagAggregator</RepositoryUrl>
     <RepositoryType>GIT</RepositoryType>
-    <PackageProjectUrl>https://github.com/EvilAvenger/HashTagAggregator</PackageProjectUrl>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>1.0.2</Version>
-    <AssemblyVersion>1.0.0.2</AssemblyVersion>
-    <FileVersion>1.0.0.2</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="HashtagAggregator.Shared.Common" Version="1.0.3" />
     <PackageReference Include="HashtagAggregator.Shared.Contracts" Version="1.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.2" />
+    <PackageReference Include="System.Text.Encodings.Web" Version="4.3.1" />
   </ItemGroup>
 
 </Project>

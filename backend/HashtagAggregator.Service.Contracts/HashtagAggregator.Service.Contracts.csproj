@@ -12,6 +12,7 @@
     <RepositoryUrl>https://github.com/EvilAvenger/HashTagAggregator</RepositoryUrl>
     <RepositoryType>GIT</RepositoryType>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>HashtagAggregator.Service.Contracts</PackageId>
   </PropertyGroup>
 
   <ItemGroup>

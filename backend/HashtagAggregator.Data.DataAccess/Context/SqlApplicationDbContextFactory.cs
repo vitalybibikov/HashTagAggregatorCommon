@@ -8,7 +8,7 @@ namespace HashtagAggregator.Data.DataAccess.Context
 {
     public class SqlApplicationDbContextFactory : IDbContextFactory<SqlApplicationDbContext>
     {
-        private string ParentProject = @"src\HashtagAggregator";
+        private string ParentProject = @"HashtagAggregator.Data.DataAccess";
         private IConfigurationRoot configuration;
 
         public SqlApplicationDbContext Create(DbContextFactoryOptions options)
@@ -22,7 +22,10 @@ namespace HashtagAggregator.Data.DataAccess.Context
             configuration = builder.Build();
 
             var optionsBuilder = new DbContextOptionsBuilder<SqlApplicationDbContext>();
-            optionsBuilder.UseSqlServer(configuration.GetSection("AppSettings:ConnectionString").Value, m => { m.EnableRetryOnFailure(); });
+            optionsBuilder.UseSqlServer(
+                configuration.GetSection("AppSettings:ConnectionString").Value, 
+                m => { m.EnableRetryOnFailure(); }
+                );
 
             return new SqlApplicationDbContext(optionsBuilder.Options);
         }

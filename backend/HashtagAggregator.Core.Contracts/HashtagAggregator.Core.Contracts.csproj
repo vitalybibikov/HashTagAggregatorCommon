@@ -16,14 +16,14 @@
     <RepositoryType>GIT</RepositoryType>
     <PackageProjectUrl>https://github.com/EvilAvenger/HashTagAggregator</PackageProjectUrl>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>1.0.2</Version>
-    <AssemblyVersion>1.0.0.2</AssemblyVersion>
-    <FileVersion>1.0.0.2</FileVersion>
+    <Version>1.0.4</Version>
+    <AssemblyVersion>1.0.0.4</AssemblyVersion>
+    <FileVersion>1.0.0.4</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="HashtagAggregator.Shared.Common" Version="1.0.3" />
-    <PackageReference Include="HashtagAggregator.Shared.Contracts" Version="1.0.2" />
+    <PackageReference Include="HashtagAggregator.Shared.Common" Version="1.0.4" />
+    <PackageReference Include="HashtagAggregator.Shared.Contracts" Version="1.0.3" />
   </ItemGroup>
 
 </Project>

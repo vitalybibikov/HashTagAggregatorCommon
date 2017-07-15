@@ -1,4 +1,5 @@
 ﻿using System.Threading.Tasks;
+
 using HashtagAggregator.Core.Contracts.Interface.Cqrs.Command;
 
 namespace HashtagAggregator.Service.Contracts
@@ -7,6 +8,6 @@ namespace HashtagAggregator.Service.Contracts
     {
         Task<ICommandResult> TryCreateJob(string tag);
 
-        void DeleteJob(string tag);
+        ICommandResult DeleteJob(string tag);
     }
 }

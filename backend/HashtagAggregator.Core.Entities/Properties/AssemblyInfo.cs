@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 // associated with an assembly.
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Vitaly Bibikov")]
-[assembly: AssemblyProduct("HashtagAggregator.Shared.Common")]
+[assembly: AssemblyProduct("HashtagAggregator")]
 [assembly: AssemblyTrademark("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
@@ -16,4 +16,4 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("ef8f0386-cd6d-4f65-88ba-52a6f37de45a")]
+[assembly: Guid("e0010945-ba57-4911-8ff1-7ebfb4b7dbd0")]

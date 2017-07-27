@@ -3,7 +3,7 @@
 echo Started
 
 SET currentPath=%~dp0
-SET apiPath=%~dp0\..\..\..\HashtagAggregator\WebAPI\HashtagAggregator.Data.DataAccess
+SET apiPath=%~dp0\..\..\..\HashtagAggregatorCommon\backend\HashtagAggregator.Data.DataAccess
 
 cd %apiPath% 
 

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Text;
+using HashtagAggregator.Shared.Common.Extensions;
 
 namespace HashtagAggregator.Core.Entities.VkEntities
 {
@@ -32,12 +33,12 @@ namespace HashtagAggregator.Core.Entities.VkEntities
             if (StartTime.HasValue)
             {
                 builder.Append("&start_time=");
-                builder.Append(StartTime.Value);
+                builder.Append(StartTime.Value.ToUnixTime());
             }
             if (EndTime.HasValue)
             {
                 builder.Append("&end_time=");
-                builder.Append(EndTime.Value);
+                builder.Append(EndTime.Value.ToUnixTime());
             }
             builder.Append($"&{AccessTokenName}=");
             builder.Append(serviceToken);

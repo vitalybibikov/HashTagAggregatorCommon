@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Text;
+using HashtagAggregator.Shared.Common.Extensions;
 
 namespace HashtagAggregator.Core.Entities.VkEntities
 {
@@ -15,6 +16,10 @@ namespace HashtagAggregator.Core.Entities.VkEntities
 
         public string Query { get; set; }
 
+        public DateTime? StartTime { get; set; }
+
+        public DateTime? EndTime { get; set; }
+
         public bool Extended { get; set; } = true;
 
         public override string ToString()
@@ -25,6 +30,16 @@ namespace HashtagAggregator.Core.Entities.VkEntities
             builder.Append(Encode(Query));
             builder.Append("&extended=");
             builder.Append(Encode(Convert.ToInt32(Extended).ToString()));
+            if (StartTime.HasValue)
+            {
+                builder.Append("&start_time=");
+                builder.Append(StartTime.Value.ToUnixTime());
+            }
+            if (EndTime.HasValue)
+            {
+                builder.Append("&end_time=");
+                builder.Append(EndTime.Value.ToUnixTime());
+            }
             builder.Append($"&{AccessTokenName}=");
             builder.Append(serviceToken);
             return builder.ToString();

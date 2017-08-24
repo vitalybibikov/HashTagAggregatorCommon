@@ -15,15 +15,19 @@
     <PackageProjectUrl>https://github.com/EvilAvenger/HashTagAggregatorCommon</PackageProjectUrl>
     <Copyright>Vitaly Bibikov</Copyright>
     <Description>HashtagAggregator.Shared.Common for HashtagAggregator</Description>
-    <AssemblyVersion>1.0.0.4</AssemblyVersion>
-    <FileVersion>1.0.0.4</FileVersion>
-    <Version>1.0.4</Version>
+    <AssemblyVersion>1.0.0.5</AssemblyVersion>
+    <FileVersion>1.0.0.5</FileVersion>
+    <Version>1.0.5</Version>
     <Authors>Vitaly Bibikov</Authors>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="HashtagAggregator.Shared.Contracts" Version="1.0.3" />
     <PackageReference Include="Microsoft.Extensions.Options" Version="1.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Extensions\" />
   </ItemGroup>
 
 </Project>
